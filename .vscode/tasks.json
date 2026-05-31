@@ -1,0 +1,34 @@
+// tasks.json - Place this in your project's .vscode folder
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "build",
+          "type": "shell",
+          "command": "C:/raylib-master/w64devkit/bin/g++.exe",
+          "args": [
+              "-g",
+              "${workspaceFolder}/src/main.cpp",
+              "-o",
+              "${workspaceFolder}/game.exe",
+              "-I${workspaceFolder}/include",
+              "-IC:/raylib-master/src",
+              "-LC:/raylib-master/src",
+              "-lraylib",
+              "-lopengl32",
+              "-lgdi32",
+              "-lwinmm"
+          ],
+          "options": {
+              "cwd": "${workspaceFolder}"
+          },
+          "problemMatcher": [
+              "$gcc"
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          }
+      }
+  ]
+}
