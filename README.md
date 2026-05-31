@@ -43,8 +43,8 @@ You'll need [raylib](https://github.com/raysan5/raylib) installed. Update the in
 
 ```bash
 g++ src/main.cpp -o game.exe \
-    -I<path-to-raylib>/src \
-    -L<path-to-raylib>/src \
+    -I<C:/raylib-master>/src \
+    -L<C:/raylib-master/src \
     -lraylib -lopengl32 -lgdi32 -lwinmm
 
 ./game.exe
