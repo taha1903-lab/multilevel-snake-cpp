@@ -94,8 +94,8 @@ multilevel-snake-cpp/
 
 Built as a 4th-semester Data Structures project at **FAST-NUCES** by:
 
-- [Your Name](https://github.com/your-username)
-- [Friend's Name](https://github.com/friend-username)
+- Taha Rizwan (https://github.com/taha1903-lab
+- Usama Sikandar https://github.com/usamasikandar67
 
 ---
 
